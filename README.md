@@ -22,5 +22,5 @@ Server is waiting for commands to be posted to `STDIN`. Available commands:
     ```
 
 ## agent
-Program that collects CPU usage by parsing the output of the `top -bn1` command and then sends it back to the Dashboard
+Program that collects CPU usage by parsing the output of the `top -bn1 1` command and then sends it back to the Dashboard
 server. The data collection takes place every 5 second.
